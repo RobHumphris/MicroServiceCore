@@ -12,9 +12,9 @@ import (
 func setupRouting() *mux.Router {
 	mux := mux.NewRouter()
 
-	//mux.HandleFunc("/config", handleConfig).Methods("GET", "POST")
-	//mux.HandleFunc("/control", handleControl).Methods("GET", "POST")
-	//mux.HandleFunc("/stream-config", handleStreamConfig).Methods("POST")
+	// Add handlers here e.g.
+	//mux.HandleFunc("/config", handlers.Config).Methods("GET", "POST")
+
 	mux.HandleFunc("/health", handlers.Health).Methods("GET")
 	return mux
 }
