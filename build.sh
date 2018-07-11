@@ -1,2 +1,3 @@
 #! /bin/bash
-go build -o bin/Q-Transcoder -i ./src/
+rm -rf bin/*
+go build -o bin/MicroServiceCore 

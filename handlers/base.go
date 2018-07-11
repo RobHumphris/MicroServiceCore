@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"../structs"
+	"MicroServiceCore/structs"
 )
 
 var serverConfigData *structs.ServerData

@@ -4,8 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"./handlers"
-	"./structs"
+	"MicroServiceCore/handlers"
+	"MicroServiceCore/structs"
+
 	"github.com/gorilla/mux"
 )
 
